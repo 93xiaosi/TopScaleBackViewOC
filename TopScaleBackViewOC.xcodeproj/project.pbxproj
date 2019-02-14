@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5332AD5E22155DAF00502A9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD5D22155DAF00502A9C /* AppDelegate.m */; };
+		5332AD6122155DAF00502A9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD6022155DAF00502A9C /* ViewController.m */; };
+		5332AD6422155DAF00502A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD6222155DAF00502A9C /* Main.storyboard */; };
+		5332AD6622155DAF00502A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD6522155DAF00502A9C /* Assets.xcassets */; };
+		5332AD6922155DAF00502A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD6722155DAF00502A9C /* LaunchScreen.storyboard */; };
+		5332AD6C22155DAF00502A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD6B22155DAF00502A9C /* main.m */; };
+		5332AD7622155DAF00502A9C /* TopScaleBackViewOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD7522155DAF00502A9C /* TopScaleBackViewOCTests.m */; };
+		5332AD8122155DAF00502A9C /* TopScaleBackViewOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD8022155DAF00502A9C /* TopScaleBackViewOCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5332AD7222155DAF00502A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332AD5122155DAF00502A9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5332AD5822155DAF00502A9C;
+			remoteInfo = TopScaleBackViewOC;
+		};
+		5332AD7D22155DAF00502A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332AD5122155DAF00502A9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5332AD5822155DAF00502A9C;
+			remoteInfo = TopScaleBackViewOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5332AD5922155DAF00502A9C /* TopScaleBackViewOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopScaleBackViewOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5332AD5C22155DAF00502A9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5332AD5D22155DAF00502A9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5332AD5F22155DAF00502A9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5332AD6022155DAF00502A9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5332AD6322155DAF00502A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5332AD6522155DAF00502A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5332AD6822155DAF00502A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5332AD6A22155DAF00502A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5332AD6B22155DAF00502A9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5332AD7122155DAF00502A9C /* TopScaleBackViewOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopScaleBackViewOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5332AD7522155DAF00502A9C /* TopScaleBackViewOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopScaleBackViewOCTests.m; sourceTree = "<group>"; };
+		5332AD7722155DAF00502A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5332AD7C22155DAF00502A9C /* TopScaleBackViewOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopScaleBackViewOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5332AD8022155DAF00502A9C /* TopScaleBackViewOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopScaleBackViewOCUITests.m; sourceTree = "<group>"; };
+		5332AD8222155DAF00502A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5332AD5622155DAF00502A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332AD6E22155DAF00502A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332AD7922155DAF00502A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5332AD5022155DAF00502A9C = {
+			isa = PBXGroup;
+			children = (
+				5332AD5B22155DAF00502A9C /* TopScaleBackViewOC */,
+				5332AD7422155DAF00502A9C /* TopScaleBackViewOCTests */,
+				5332AD7F22155DAF00502A9C /* TopScaleBackViewOCUITests */,
+				5332AD5A22155DAF00502A9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5332AD5A22155DAF00502A9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5332AD5922155DAF00502A9C /* TopScaleBackViewOC.app */,
+				5332AD7122155DAF00502A9C /* TopScaleBackViewOCTests.xctest */,
+				5332AD7C22155DAF00502A9C /* TopScaleBackViewOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5332AD5B22155DAF00502A9C /* TopScaleBackViewOC */ = {
+			isa = PBXGroup;
+			children = (
+				5332AD5C22155DAF00502A9C /* AppDelegate.h */,
+				5332AD5D22155DAF00502A9C /* AppDelegate.m */,
+				5332AD5F22155DAF00502A9C /* ViewController.h */,
+				5332AD6022155DAF00502A9C /* ViewController.m */,
+				5332AD6222155DAF00502A9C /* Main.storyboard */,
+				5332AD6522155DAF00502A9C /* Assets.xcassets */,
+				5332AD6722155DAF00502A9C /* LaunchScreen.storyboard */,
+				5332AD6A22155DAF00502A9C /* Info.plist */,
+				5332AD6B22155DAF00502A9C /* main.m */,
+			);
+			path = TopScaleBackViewOC;
+			sourceTree = "<group>";
+		};
+		5332AD7422155DAF00502A9C /* TopScaleBackViewOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5332AD7522155DAF00502A9C /* TopScaleBackViewOCTests.m */,
+				5332AD7722155DAF00502A9C /* Info.plist */,
+			);
+			path = TopScaleBackViewOCTests;
+			sourceTree = "<group>";
+		};
+		5332AD7F22155DAF00502A9C /* TopScaleBackViewOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5332AD8022155DAF00502A9C /* TopScaleBackViewOCUITests.m */,
+				5332AD8222155DAF00502A9C /* Info.plist */,
+			);
+			path = TopScaleBackViewOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5332AD5822155DAF00502A9C /* TopScaleBackViewOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5332AD8522155DAF00502A9C /* Build configuration list for PBXNativeTarget "TopScaleBackViewOC" */;
+			buildPhases = (
+				5332AD5522155DAF00502A9C /* Sources */,
+				5332AD5622155DAF00502A9C /* Frameworks */,
+				5332AD5722155DAF00502A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopScaleBackViewOC;
+			productName = TopScaleBackViewOC;
+			productReference = 5332AD5922155DAF00502A9C /* TopScaleBackViewOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5332AD7022155DAF00502A9C /* TopScaleBackViewOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5332AD8822155DAF00502A9C /* Build configuration list for PBXNativeTarget "TopScaleBackViewOCTests" */;
+			buildPhases = (
+				5332AD6D22155DAF00502A9C /* Sources */,
+				5332AD6E22155DAF00502A9C /* Frameworks */,
+				5332AD6F22155DAF00502A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5332AD7322155DAF00502A9C /* PBXTargetDependency */,
+			);
+			name = TopScaleBackViewOCTests;
+			productName = TopScaleBackViewOCTests;
+			productReference = 5332AD7122155DAF00502A9C /* TopScaleBackViewOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5332AD7B22155DAF00502A9C /* TopScaleBackViewOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5332AD8B22155DAF00502A9C /* Build configuration list for PBXNativeTarget "TopScaleBackViewOCUITests" */;
+			buildPhases = (
+				5332AD7822155DAF00502A9C /* Sources */,
+				5332AD7922155DAF00502A9C /* Frameworks */,
+				5332AD7A22155DAF00502A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5332AD7E22155DAF00502A9C /* PBXTargetDependency */,
+			);
+			name = TopScaleBackViewOCUITests;
+			productName = TopScaleBackViewOCUITests;
+			productReference = 5332AD7C22155DAF00502A9C /* TopScaleBackViewOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5332AD5122155DAF00502A9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xiaosi;
+				TargetAttributes = {
+					5332AD5822155DAF00502A9C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5332AD7022155DAF00502A9C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5332AD5822155DAF00502A9C;
+					};
+					5332AD7B22155DAF00502A9C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5332AD5822155DAF00502A9C;
+					};
+				};
+			};
+			buildConfigurationList = 5332AD5422155DAF00502A9C /* Build configuration list for PBXProject "TopScaleBackViewOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5332AD5022155DAF00502A9C;
+			productRefGroup = 5332AD5A22155DAF00502A9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5332AD5822155DAF00502A9C /* TopScaleBackViewOC */,
+				5332AD7022155DAF00502A9C /* TopScaleBackViewOCTests */,
+				5332AD7B22155DAF00502A9C /* TopScaleBackViewOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5332AD5722155DAF00502A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5332AD6922155DAF00502A9C /* LaunchScreen.storyboard in Resources */,
+				5332AD6622155DAF00502A9C /* Assets.xcassets in Resources */,
+				5332AD6422155DAF00502A9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332AD6F22155DAF00502A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332AD7A22155DAF00502A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5332AD5522155DAF00502A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5332AD6122155DAF00502A9C /* ViewController.m in Sources */,
+				5332AD6C22155DAF00502A9C /* main.m in Sources */,
+				5332AD5E22155DAF00502A9C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332AD6D22155DAF00502A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5332AD7622155DAF00502A9C /* TopScaleBackViewOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332AD7822155DAF00502A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5332AD8122155DAF00502A9C /* TopScaleBackViewOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5332AD7322155DAF00502A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5332AD5822155DAF00502A9C /* TopScaleBackViewOC */;
+			targetProxy = 5332AD7222155DAF00502A9C /* PBXContainerItemProxy */;
+		};
+		5332AD7E22155DAF00502A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5332AD5822155DAF00502A9C /* TopScaleBackViewOC */;
+			targetProxy = 5332AD7D22155DAF00502A9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5332AD6222155DAF00502A9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5332AD6322155DAF00502A9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5332AD6722155DAF00502A9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5332AD6822155DAF00502A9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5332AD8322155DAF00502A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5332AD8422155DAF00502A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5332AD8622155DAF00502A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = TopScaleBackViewOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5332AD8722155DAF00502A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = TopScaleBackViewOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5332AD8922155DAF00502A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = TopScaleBackViewOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopScaleBackViewOC.app/TopScaleBackViewOC";
+			};
+			name = Debug;
+		};
+		5332AD8A22155DAF00502A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = TopScaleBackViewOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopScaleBackViewOC.app/TopScaleBackViewOC";
+			};
+			name = Release;
+		};
+		5332AD8C22155DAF00502A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = TopScaleBackViewOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopScaleBackViewOC;
+			};
+			name = Debug;
+		};
+		5332AD8D22155DAF00502A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = TopScaleBackViewOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopScaleBackViewOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5332AD5422155DAF00502A9C /* Build configuration list for PBXProject "TopScaleBackViewOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5332AD8322155DAF00502A9C /* Debug */,
+				5332AD8422155DAF00502A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5332AD8522155DAF00502A9C /* Build configuration list for PBXNativeTarget "TopScaleBackViewOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5332AD8622155DAF00502A9C /* Debug */,
+				5332AD8722155DAF00502A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5332AD8822155DAF00502A9C /* Build configuration list for PBXNativeTarget "TopScaleBackViewOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5332AD8922155DAF00502A9C /* Debug */,
+				5332AD8A22155DAF00502A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5332AD8B22155DAF00502A9C /* Build configuration list for PBXNativeTarget "TopScaleBackViewOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5332AD8C22155DAF00502A9C /* Debug */,
+				5332AD8D22155DAF00502A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5332AD5122155DAF00502A9C /* Project object */;
+}
