@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5332AD5E22155DAF00502A9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD5D22155DAF00502A9C /* AppDelegate.m */; };
-		5332AD6122155DAF00502A9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD6022155DAF00502A9C /* ViewController.m */; };
-		5332AD6422155DAF00502A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD6222155DAF00502A9C /* Main.storyboard */; };
 		5332AD6622155DAF00502A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD6522155DAF00502A9C /* Assets.xcassets */; };
 		5332AD6922155DAF00502A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD6722155DAF00502A9C /* LaunchScreen.storyboard */; };
 		5332AD6C22155DAF00502A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD6B22155DAF00502A9C /* main.m */; };
 		5332AD7622155DAF00502A9C /* TopScaleBackViewOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD7522155DAF00502A9C /* TopScaleBackViewOCTests.m */; };
 		5332AD8122155DAF00502A9C /* TopScaleBackViewOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD8022155DAF00502A9C /* TopScaleBackViewOCUITests.m */; };
+		5332AD9022155DF000502A9C /* XSHeaderViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD8F22155DF000502A9C /* XSHeaderViewVC.m */; };
+		5332AD9322155E0700502A9C /* XSContentInsetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332AD9222155E0700502A9C /* XSContentInsetVC.m */; };
+		5332AD9722155E8D00502A9C /* banner2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD9522155E8D00502A9C /* banner2.jpg */; };
+		5332AD9822155E8D00502A9C /* banner1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5332AD9622155E8D00502A9C /* banner1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,6 @@
 		5332AD5922155DAF00502A9C /* TopScaleBackViewOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopScaleBackViewOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332AD5C22155DAF00502A9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5332AD5D22155DAF00502A9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5332AD5F22155DAF00502A9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5332AD6022155DAF00502A9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5332AD6322155DAF00502A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5332AD6522155DAF00502A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5332AD6822155DAF00502A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5332AD6A22155DAF00502A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,12 @@
 		5332AD7C22155DAF00502A9C /* TopScaleBackViewOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopScaleBackViewOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332AD8022155DAF00502A9C /* TopScaleBackViewOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopScaleBackViewOCUITests.m; sourceTree = "<group>"; };
 		5332AD8222155DAF00502A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5332AD8E22155DF000502A9C /* XSHeaderViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSHeaderViewVC.h; sourceTree = "<group>"; };
+		5332AD8F22155DF000502A9C /* XSHeaderViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHeaderViewVC.m; sourceTree = "<group>"; };
+		5332AD9122155E0700502A9C /* XSContentInsetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSContentInsetVC.h; sourceTree = "<group>"; };
+		5332AD9222155E0700502A9C /* XSContentInsetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSContentInsetVC.m; sourceTree = "<group>"; };
+		5332AD9522155E8D00502A9C /* banner2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner2.jpg; sourceTree = "<group>"; };
+		5332AD9622155E8D00502A9C /* banner1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +108,15 @@
 			children = (
 				5332AD5C22155DAF00502A9C /* AppDelegate.h */,
 				5332AD5D22155DAF00502A9C /* AppDelegate.m */,
-				5332AD5F22155DAF00502A9C /* ViewController.h */,
-				5332AD6022155DAF00502A9C /* ViewController.m */,
-				5332AD6222155DAF00502A9C /* Main.storyboard */,
+				5332AD8E22155DF000502A9C /* XSHeaderViewVC.h */,
+				5332AD8F22155DF000502A9C /* XSHeaderViewVC.m */,
+				5332AD9122155E0700502A9C /* XSContentInsetVC.h */,
+				5332AD9222155E0700502A9C /* XSContentInsetVC.m */,
 				5332AD6522155DAF00502A9C /* Assets.xcassets */,
 				5332AD6722155DAF00502A9C /* LaunchScreen.storyboard */,
 				5332AD6A22155DAF00502A9C /* Info.plist */,
 				5332AD6B22155DAF00502A9C /* main.m */,
+				5332AD9422155E8D00502A9C /* Resource */,
 			);
 			path = TopScaleBackViewOC;
 			sourceTree = "<group>";
@@ -130,6 +137,15 @@
 				5332AD8222155DAF00502A9C /* Info.plist */,
 			);
 			path = TopScaleBackViewOCUITests;
+			sourceTree = "<group>";
+		};
+		5332AD9422155E8D00502A9C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5332AD9522155E8D00502A9C /* banner2.jpg */,
+				5332AD9622155E8D00502A9C /* banner1.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5332AD6922155DAF00502A9C /* LaunchScreen.storyboard in Resources */,
+				5332AD9822155E8D00502A9C /* banner1.jpg in Resources */,
+				5332AD9722155E8D00502A9C /* banner2.jpg in Resources */,
 				5332AD6622155DAF00502A9C /* Assets.xcassets in Resources */,
-				5332AD6422155DAF00502A9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5332AD6122155DAF00502A9C /* ViewController.m in Sources */,
+				5332AD9022155DF000502A9C /* XSHeaderViewVC.m in Sources */,
 				5332AD6C22155DAF00502A9C /* main.m in Sources */,
 				5332AD5E22155DAF00502A9C /* AppDelegate.m in Sources */,
+				5332AD9322155E0700502A9C /* XSContentInsetVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5332AD6222155DAF00502A9C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5332AD6322155DAF00502A9C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5332AD6722155DAF00502A9C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,8 +445,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TopScaleBackViewOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,8 +463,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TopScaleBackViewOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.TopScaleBackViewOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
